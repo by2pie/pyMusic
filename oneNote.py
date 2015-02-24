@@ -4,7 +4,6 @@ import numpy as np
 import pyaudio
 
 freqA4 = 440
-half_step = 2.0**(1.0/12.0)
 rate = 44100
 
 def sine(freq, length):
